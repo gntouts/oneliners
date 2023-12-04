@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 echo "Checking latest version for https://github.com/wagoodman/dive..."
 DIVE_VERSION=$(curl -L -s -o /dev/null -w '%{url_effective}' "https://github.com/wagoodman/dive/releases/latest" | grep -oP "v\d+\.\d+\.\d+" | sed 's/v//')
 echo "Found latest version $DIVE_VERSION"
