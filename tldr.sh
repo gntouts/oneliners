@@ -12,7 +12,7 @@ elif [ "$arch" == "armv7l" ] || [ "$arch" == "aarch64" ]; then
 fi
 
 echo "Downloading Debian package for tldr v$TLDR_VERSION $CPU_ARCH"
-curl -L -o tldr https://github.com/dbrgn/tealdeer/releases/download/v$TLDR_VERSION/tealdeer-linux-$CPU_ARCH
+curl -sL -o tldr https://github.com/dbrgn/tealdeer/releases/download/v$TLDR_VERSION/tealdeer-linux-$CPU_ARCH
 sudo echo "Installing package..."
 sudo install -m 755 tldr /usr/local/bin/
 

@@ -5,7 +5,7 @@ DIVE_VERSION=$(curl -L -s -o /dev/null -w '%{url_effective}' "https://github.com
 echo "Found latest version $DIVE_VERSION"
 CPU_ARCH=$(dpkg --print-architecture)
 echo "Downloading Debian package for dive v$DIVE_VERSION $CPU_ARCH"
-curl -L -o dive.deb https://github.com/wagoodman/dive/releases/download/v$DIVE_VERSION/dive_$DIVE_VERSION\_linux_$CPU_ARCH.deb
+curl -sL -o dive.deb https://github.com/wagoodman/dive/releases/download/v$DIVE_VERSION/dive_$DIVE_VERSION\_linux_$CPU_ARCH.deb
 
 sudo echo "Installing package..."
 sudo dpkg -i ./dive.deb
