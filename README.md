@@ -31,3 +31,17 @@ To install specific Go version:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/go.sh | bash -s go1.20
 ```
+
+## crictl
+
+To install latest [crictl](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md#install-crictl) release:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/crictl.sh | bash
+```
+
+To install specific `crictl` version:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/crictl.sh | bash -s v1.22.0
+```
