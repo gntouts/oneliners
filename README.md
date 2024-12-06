@@ -1,6 +1,14 @@
 # oneliners
 
-Collection of Bash scripts to perform various commonly used tasks
+Collection of Bash scripts to perform various commonly used tasks:
+
+- [dive](#dive)
+- [tldr](#tldr)
+- [Go](#go)
+- [crictl](#crictl)
+- [containerd](#containerd)
+
+---
 
 ## dive
 
