@@ -7,6 +7,7 @@ Collection of Bash scripts to perform various commonly used tasks:
 - [Go](#go)
 - [crictl](#crictl)
 - [containerd](#containerd)
+- [CNI plugins](#cni-plugins)
 
 ---
 
@@ -66,4 +67,18 @@ To install specific `containerd` version:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/containerd.sh | bash -s 1.7.24
+```
+
+## CNI Plugins
+
+To install latest [CNI plugins](https://github.com/containernetworking/plugins) release:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bash
+```
+
+To install specific CNI plugins version:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bash -s 1.5.1
 ```
