@@ -9,6 +9,7 @@ Collection of Bash scripts to perform various commonly used tasks:
 - [containerd](#containerd)
 - [CNI plugins](#cni-plugins)
 - [runc](#runc)
+- [kubeadm](#kubeadm)
 
 ---
 
@@ -98,6 +99,19 @@ To install specific `runc` version:
 curl -fsSL https://scripts.gntouts.com/runc.sh | bash -s 1.2.1
 ```
 
-## kubeadm
-## kubelet
 ## kubectl
+
+To install latest [kubectl](https://github.com/kubernetes/kubectl/tags) release:
+
+```bash
+curl -fsSL https://scripts.gntouts.com/kubectl.sh | bash
+```
+
+To install specific `kubectl` version:
+
+```bash
+curl -fsSL https://scripts.gntouts.com/kubectl.sh | bash -s 1.27
+```
+
+## kubelet
+## kubeadm
