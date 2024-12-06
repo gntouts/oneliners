@@ -8,6 +8,7 @@ Collection of Bash scripts to perform various commonly used tasks:
 - [crictl](#crictl)
 - [containerd](#containerd)
 - [CNI plugins](#cni-plugins)
+- [runc](#runc)
 
 ---
 
@@ -81,4 +82,18 @@ To install specific CNI plugins version:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bash -s 1.5.1
+```
+
+## runc
+
+To install latest [runc](https://runc.io/downloads/#installing-binaries) release:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/runc.sh | bash
+```
+
+To install specific `runc` version:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/runc.sh | bash -s 1.2.1
 ```
