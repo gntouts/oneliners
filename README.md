@@ -17,7 +17,7 @@ Collection of Bash scripts to perform various commonly used tasks:
 To install [dive](https://github.com/wagoodman/dive):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/dive.sh | bash
+curl -fsSL https://scripts.gntouts.com/dive.sh | bash
 ```
 
 ## tldr
@@ -25,7 +25,7 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/dive.sh | ba
 To install [tealdeer](https://github.com/dbrgn/tealdeer):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/tldr.sh | bash
+curl -fsSL https://scripts.gntouts.com/tldr.sh | bash
 ```
 
 ## Go
@@ -33,13 +33,13 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/tldr.sh | ba
 To install latest [Go](https://go.dev/doc/install) release:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/go.sh | bash
+curl -fsSL https://scripts.gntouts.com/go.sh | bash
 ```
 
 To install specific Go version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/go.sh | bash -s go1.20
+curl -fsSL https://scripts.gntouts.com/go.sh | bash -s go1.20
 ```
 
 ## crictl
@@ -47,13 +47,13 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/go.sh | bash
 To install latest [crictl](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md#install-crictl) release:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/crictl.sh | bash
+curl -fsSL https://scripts.gntouts.com/crictl.sh | bash
 ```
 
 To install specific `crictl` version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/crictl.sh | bash -s v1.22.0
+curl -fsSL https://scripts.gntouts.com/crictl.sh | bash -s v1.22.0
 ```
 
 ## containerd
@@ -61,13 +61,13 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/crictl.sh | 
 To install latest [containerd](https://containerd.io/downloads/#installing-binaries) release:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/containerd.sh | bash
+curl -fsSL https://scripts.gntouts.com/containerd.sh | bash
 ```
 
 To install specific `containerd` version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/containerd.sh | bash -s 1.7.24
+curl -fsSL https://scripts.gntouts.com/containerd.sh | bash -s 1.7.24
 ```
 
 ## CNI Plugins
@@ -75,13 +75,13 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/containerd.s
 To install latest [CNI plugins](https://github.com/containernetworking/plugins) release:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bash
+curl -fsSL https://scripts.gntouts.com/cni.sh | bash
 ```
 
 To install specific CNI plugins version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bash -s 1.5.1
+curl -fsSL https://scripts.gntouts.com/cni.sh | bash -s 1.5.1
 ```
 
 ## runc
@@ -89,11 +89,11 @@ curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/cni.sh | bas
 To install latest [runc](https://runc.io/downloads/#installing-binaries) release:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/runc.sh | bash
+curl -fsSL https://scripts.gntouts.com/runc.sh | bash
 ```
 
 To install specific `runc` version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/gntouts/oneliners/main/runc.sh | bash -s 1.2.1
+curl -fsSL https://scripts.gntouts.com/runc.sh | bash -s 1.2.1
 ```
