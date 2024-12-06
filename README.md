@@ -97,3 +97,7 @@ To install specific `runc` version:
 ```bash
 curl -fsSL https://scripts.gntouts.com/runc.sh | bash -s 1.2.1
 ```
+
+## kubeadm
+## kubelet
+## kubectl
